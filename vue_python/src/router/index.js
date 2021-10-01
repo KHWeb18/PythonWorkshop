@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
 import LoginTest from '@/views/LoginTest'
+import KakaoLogin from '@/views/KakaoLogin'
 
 Vue.use(VueRouter)
 
@@ -24,6 +25,11 @@ const routes = [
     path: '/login',
     name: 'LoginTest',
     component: LoginTest
+  },
+  {
+    path: '/kakaoLogin',
+    name: 'KakaoLogin',
+    component: KakaoLogin
   },
 ]
 
