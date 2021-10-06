@@ -8,6 +8,10 @@
       class="nav-link" 
       active-class="active">KakaoLogin
     </router-link>
+    <router-link :to="{ name: 'OrderTest' }" 
+      class="nav-link" 
+      active-class="active">OrderTest
+    </router-link>
   </div>  
 </template>
 

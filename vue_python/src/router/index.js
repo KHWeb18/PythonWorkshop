@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 
 import LoginTest from '@/views/LoginTest'
 import KakaoLogin from '@/views/KakaoLogin'
+import OrderTest from '@/views/OrderTest'
 
 Vue.use(VueRouter)
 
@@ -30,6 +31,11 @@ const routes = [
     path: '/kakaoLogin',
     name: 'KakaoLogin',
     component: KakaoLogin
+  },
+  {
+    path: '/orderTest',
+    name: 'OrderTest',
+    component: OrderTest
   },
 ]
 
