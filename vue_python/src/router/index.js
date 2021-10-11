@@ -5,6 +5,7 @@ import Home from '../views/Home.vue'
 import LoginTest from '@/views/LoginTest'
 import KakaoLogin from '@/views/KakaoLogin'
 import OrderTest from '@/views/OrderTest'
+import PythonCrawl from '@/views/PythonCrawl'
 
 Vue.use(VueRouter)
 
@@ -36,6 +37,11 @@ const routes = [
     path: '/orderTest',
     name: 'OrderTest',
     component: OrderTest
+  },
+  {
+    path: '/pythonCrawl',
+    name: 'PythonCrawl',
+    component: PythonCrawl
   },
 ]
 

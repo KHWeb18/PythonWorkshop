@@ -12,6 +12,10 @@
       class="nav-link" 
       active-class="active">OrderTest
     </router-link>
+    <router-link :to="{ name: 'PythonCrawl' }" 
+      class="nav-link" 
+      active-class="active">PythonCrawl
+    </router-link>
   </div>  
 </template>
 
