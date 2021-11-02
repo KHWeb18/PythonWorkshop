@@ -16,6 +16,10 @@
       class="nav-link" 
       active-class="active">PythonCrawl
     </router-link>
+    <router-link :to="{ name: 'WebGLTest' }" 
+      class="nav-link" 
+      active-class="active">WebGLTest
+    </router-link>
   </div>  
 </template>
 

@@ -6,6 +6,7 @@ import LoginTest from '@/views/LoginTest'
 import KakaoLogin from '@/views/KakaoLogin'
 import OrderTest from '@/views/OrderTest'
 import PythonCrawl from '@/views/PythonCrawl'
+import WebGLTest from '@/views/WebGLTest'
 
 Vue.use(VueRouter)
 
@@ -42,6 +43,11 @@ const routes = [
     path: '/pythonCrawl',
     name: 'PythonCrawl',
     component: PythonCrawl
+  },
+  {
+    path: '/webGLTest',
+    name: 'WebGLTest',
+    component: WebGLTest
   },
 ]
 
