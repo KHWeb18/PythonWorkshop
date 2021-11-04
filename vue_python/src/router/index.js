@@ -7,6 +7,7 @@ import KakaoLogin from '@/views/KakaoLogin'
 import OrderTest from '@/views/OrderTest'
 import PythonCrawl from '@/views/PythonCrawl'
 import WebGLTest from '@/views/WebGLTest'
+import WebGLScene from '@/views/WebGLScene'
 
 Vue.use(VueRouter)
 
@@ -48,6 +49,11 @@ const routes = [
     path: '/webGLTest',
     name: 'WebGLTest',
     component: WebGLTest
+  },
+  {
+    path: '/webGLScene',
+    name: 'WebGLScene',
+    component: WebGLScene
   },
 ]
 

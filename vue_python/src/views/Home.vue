@@ -20,6 +20,10 @@
       class="nav-link" 
       active-class="active">WebGLTest
     </router-link>
+    <router-link :to="{ name: 'WebGLScene' }" 
+      class="nav-link" 
+      active-class="active">WebGLScene
+    </router-link>
   </div>  
 </template>
 
