@@ -1,0 +1,11 @@
+﻿Signal Name,Direction,Target,Signal Value
+VehSpeed1,Tx,Component1,10.4
+VehSpeed2,Tx,Component1,10.3
+VehSpeed3,Rx,Component1,12
+VehSpeed4,Tx,Component1,13.1
+VehSpeed5,Tx,Component2,9.4
+VehSpeed6,Tx,Component2,8.4
+VehSpeed7,Rx,Component2,3.9
+VehSpeed8,Tx,Component2,7.1
+VehSpeed9,Tx,Component2,7.5
+VehSpeed10,Tx,Component2,4.3
